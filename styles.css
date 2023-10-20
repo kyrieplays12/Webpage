@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    flex: 1; /* Equal width for all columns */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.color-example h3 {
+    color: #0073e6;
+}
+
+.color-example p {
+    background-color: yellow;
+}
+
+.typography-example p {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    text-align: right;
+    line-height: 1.6;
+}
+
+#uniqueDiv {
+    background-color: violet;
+    font-size: 18px;
+}
+
+.info {
+    border: 2px solid #4caf50;
+    padding: 10px;
+}
